@@ -1,5 +1,15 @@
 --class-path .
+--dce full
 
---main Main
+--each
+
+--library hxnodejs
+
+Export
+
+--js bin/js/export.js
+
+--next 
 
 --cpp bin/cpp
+--main Main
